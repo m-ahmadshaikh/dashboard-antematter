@@ -1,0 +1,31 @@
+:root {
+  --background: #000;
+  --grey-level-1: #131417;
+  --grey-level-2: #18191d;
+  --grey-level-3: #18191d;
+  --grey-level-4: #808287;
+  --primary-text-selection: #fff;
+  --success: #0ac189;
+  --unselected-state: #666
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: local('SFPro'), url(./fonts/SF-Pro-Text-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPro';
+  font-weight: 800;
+  src: local('SFPro'), url(./fonts/SF-Pro-Text-Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPro';
+  font-weight: 400;
+  src: local('SFPro'), url(./fonts/SF-Pro-Text-Medium.otf) format('truetype');
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}

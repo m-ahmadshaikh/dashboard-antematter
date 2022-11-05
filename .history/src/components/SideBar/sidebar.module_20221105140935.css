@@ -1,0 +1,39 @@
+@import '../../assets/global.css';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 108px;
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+
+.logo {
+  margin: 50px 36px 0;
+  width: 36px;
+  height: 36px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+
+  width: 108px;
+  height: 264px;
+}
+
+.nav img {
+  width: 24px;
+  height: 24px;
+  margin: 32px
+}
+
+.notification {
+  margin: 0 68px 42px;
+
+  width: 24px;
+  height: 24px;
+}

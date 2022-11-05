@@ -1,0 +1,19 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 108px;
+}
+
+
+.logo {
+  height: 88px;
+  width: 88px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nav img {}

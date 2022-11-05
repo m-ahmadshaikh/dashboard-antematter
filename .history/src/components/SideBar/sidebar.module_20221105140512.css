@@ -1,0 +1,35 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 108px;
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+
+.logo {
+
+  width: 36px;
+  height: 36px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+
+  width: 108px;
+  height: 264px;
+}
+
+.nav img {
+  width: 24px;
+  height: 24px;
+  margin: 32px
+}
+
+.notification {
+
+  width: 24px;
+  height: 24px;
+}

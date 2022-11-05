@@ -1,0 +1,10 @@
+:root {
+  --background: #000;
+  --grey-level-1: #131417;
+  --grey-level-2: #18191d;
+  --grey-level-3: #18191d;
+  --grey-level-4: #808287;
+  --primary-text-selection: #fff;
+  --success: #0ac189;
+  --unselected-state: #666
+}

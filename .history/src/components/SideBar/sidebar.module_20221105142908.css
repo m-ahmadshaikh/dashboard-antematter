@@ -1,0 +1,56 @@
+@import '../../assets/global.css';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 108px;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+
+.sidebar>img {
+  filter: invert(100%) sepia(41%) saturate(130%) hue-rotate(111deg) brightness(109%) contrast(101%);
+}
+
+.nav>img:hover {
+  filter: invert(35%) sepia(98%) saturate(0%) hue-rotate(207deg) brightness(92%) contrast(87%);
+}
+
+
+.logo {
+  margin: 50px 36px 0;
+  width: 36px;
+  height: 36px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 108px;
+  height: 264px;
+}
+
+.nav_icons {
+  border: 1px solid pink;
+  text-align: center;
+  height: 88px;
+  display: grid;
+  place-items: center;
+}
+
+.nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification {
+  margin: 0 68px 42px;
+
+  width: 24px;
+  height: 24px;
+}
