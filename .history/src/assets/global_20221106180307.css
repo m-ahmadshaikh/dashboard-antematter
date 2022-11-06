@@ -39,11 +39,10 @@
 }
 
 body {
-  font-family: 'SF Pro Text', sans-serif, serif;
+  font-family: sans-serif, serif;
   margin: 0px;
   background-color: var(--background);
   color: #fff;
-  ;
 }
 
 

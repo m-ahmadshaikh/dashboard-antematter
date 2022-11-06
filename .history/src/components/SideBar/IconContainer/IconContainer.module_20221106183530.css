@@ -39,9 +39,9 @@
   position: absolute;
   width: 2px;
   height: 40px;
-  left: 0px;
+  left: 2px;
   top: calc(50% - 40px/2);
-  background-color: #fff !important;
+  background-color: #fff;
   z-index: 1;
   opacity: 0;
   transition: opacity 500ms ease-out;
