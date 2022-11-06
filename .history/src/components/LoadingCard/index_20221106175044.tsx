@@ -18,16 +18,12 @@ function LoadingCard() {
             className={classes.skeleton}
             baseColor="#000"
             borderRadius={12}
+            width={364}
             height={364}
           />
         </div>
         <h3 className="item-title">
-          <Skeleton
-            className={classes.skeleton}
-            baseColor="#000"
-            count={3}
-            height={36}
-          />
+          <Skeleton baseColor="#000" count={3} width={364} height={36} />
         </h3>
       </article>
     </section>

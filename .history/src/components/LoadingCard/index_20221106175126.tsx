@@ -18,6 +18,7 @@ function LoadingCard() {
             className={classes.skeleton}
             baseColor="#000"
             borderRadius={12}
+            width={364}
             height={364}
           />
         </div>
