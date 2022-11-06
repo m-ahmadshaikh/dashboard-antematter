@@ -1,0 +1,109 @@
+@import '../../assets/global.css';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 108px;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+
+
+.nav_icons>img {
+  filter: invert(42%) sepia(2%) saturate(0%) hue-rotate(147deg) brightness(89%) contrast(81%);
+}
+
+
+.logo {
+  margin: 50px 36px 0;
+  width: 36px;
+  height: 36px;
+  filter: invert(100%) sepia(41%) saturate(130%) hue-rotate(111deg) brightness(109%) contrast(101%);
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 108px;
+  height: 264px;
+
+}
+
+.nav_icons {
+  text-align: center;
+  width: 100%;
+  height: 88px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+
+
+}
+
+.active>img {
+  filter: invert(100%) sepia(2%) saturate(130%) hue-rotate(111deg) brightness(109%) contrast(101%);
+  transition: all 0.5s ease-out;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  left: 0px;
+  top: calc(50% - 40px/2);
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
+
+.active::before {
+  opacity: 1;
+
+}
+
+.nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification {
+  margin: 0 68px 42px;
+
+  width: 24px;
+  height: 24px;
+  position: relative;
+
+}
+
+.notification>img {
+  cursor: pointer;
+  filter: invert(42%) sepia(2%) saturate(0%) hue-rotate(147deg) brightness(89%) contrast(81%);
+}
+
+.notification::after {
+  content: '';
+  position: absolute;
+  right: 2.5px;
+  top: 2.6px;
+
+  width: 7px;
+  height: 7px;
+
+  background: #FFFFFF;
+  border-radius: 50%;
+
+
+  z-index: 3;
+}

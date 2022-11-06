@@ -1,0 +1,7 @@
+.main {
+  width: 100px;
+  max-width: 1230px;
+  height: 600px;
+  margin: 74px 51px;
+  display: flex;
+}

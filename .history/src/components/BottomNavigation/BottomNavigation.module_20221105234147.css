@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  gap: 10px;
+  width: 295px;
+  height: 78px;
+  background: #000000;
+  border-radius: 39px;
+  margin: auto;
+
+}
+
+.main img {
+  cursor: pointer;
+  box-shadow: 0.25em 0.25em 0.75em rgba(249, 249, 249, 0.25),
+    0.125em 0.125em 0.25em rgba(255, 255, 255, 0.15);
+  ;
+}

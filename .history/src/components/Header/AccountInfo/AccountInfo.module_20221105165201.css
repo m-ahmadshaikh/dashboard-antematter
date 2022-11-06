@@ -1,0 +1,50 @@
+@import url(/src/assets/global.css);
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 12px;
+
+  width: 238px;
+  height: 40px;
+
+  /* grey level 2 */
+
+  background: var(--grey-level-2);
+  border-radius: 14px;
+  color: #fff;
+
+}
+
+.main img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.username {
+  width: 31px;
+  height: 20px;
+
+  font-size: 14px;
+}
+
+.userID {
+  width: 123px;
+  height: 20px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+
+  /* primary text_selection */
+
+  color: #FFFFFF;
+}

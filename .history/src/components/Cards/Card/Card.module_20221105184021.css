@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 18px;
+  min-width: 388px;
+  height: 600px;
+  background: #000000;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}

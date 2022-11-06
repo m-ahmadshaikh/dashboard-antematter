@@ -1,0 +1,7 @@
+.main {}
+
+.main:first-child {
+  display: flex;
+  border: 10px solid blue;
+
+}

@@ -1,0 +1,10 @@
+.main {
+  width: 100px;
+  min-width: 1230px;
+  height: 600px;
+  margin: 74px 51px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  gap: 33px;
+}

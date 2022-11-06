@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  gap: 10px;
+  width: 100%;
+  max-width: 295px;
+  min-height: 78px;
+  height: 100%;
+  background: #000000;
+  border-radius: 39px;
+  margin: 20px auto;
+}
+
+.main img {
+  cursor: pointer;
+
+}
+
+.main img:active {
+  filter: invert(100%) sepia(2%) saturate(130%) hue-rotate(111deg) brightness(109%) contrast(101%);
+  transition: all 0.5s ease-out;
+
+}

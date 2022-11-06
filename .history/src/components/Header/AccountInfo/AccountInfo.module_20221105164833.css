@@ -1,0 +1,29 @@
+@import url(/src/assets/global.css);
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 12px;
+
+  width: 238px;
+  height: 40px;
+
+  /* grey level 2 */
+
+  background: var(--grey-level-2);
+  border-radius: 14px;
+  color: #fff;
+
+}
+
+.main img {
+  width: 24px;
+  height: 24px;
+  border-radius: 505;
+}
+
+.username {}
+
+.userid {}

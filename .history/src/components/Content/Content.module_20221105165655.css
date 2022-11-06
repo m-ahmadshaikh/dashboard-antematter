@@ -1,0 +1,11 @@
+@import url(../../assets/global.css);
+
+.main {
+  background: #282A31;
+  flex-grow: 1;
+  height: 100vh;
+  border-radius: 32px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}

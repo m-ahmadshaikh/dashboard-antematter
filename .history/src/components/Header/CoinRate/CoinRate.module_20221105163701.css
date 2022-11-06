@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 8px;
+
+  width: 254px;
+  height: 40px;
+
+  /* grey level 2 */
+
+  background: #18191D;
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

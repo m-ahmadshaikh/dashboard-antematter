@@ -1,0 +1,18 @@
+@import url(../../assets/global.css);
+
+.main {
+  background: #282A31;
+  flex-grow: 1;
+  height: 100vh;
+  border-radius: 32px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 64px;
+  border: 1px solid red;
+
+}

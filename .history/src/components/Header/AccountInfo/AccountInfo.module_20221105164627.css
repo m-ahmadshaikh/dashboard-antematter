@@ -1,0 +1,29 @@
+@import url(/src/assets/global.css);
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 12px;
+
+  width: 238px;
+  height: 40px;
+
+  /* grey level 2 */
+
+  background: #18191D;
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.main img {
+  width: 24px;
+  height: 24px;
+  border-radius: 505;
+}

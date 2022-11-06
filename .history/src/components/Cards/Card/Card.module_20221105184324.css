@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 18px;
+
+  width: 388px;
+  height: 600px;
+
+  /* background */
+
+  background: #000000;
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.header img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%) sepia(41%) saturate(130%) hue-rotate(111deg) brightness(109%) contrast(101%);
+}
+
+.main_img {
+  width: 364px;
+  height: 364px;
+  border-radius: 12px;
+}
